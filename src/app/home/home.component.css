@@ -1,0 +1,30 @@
+.home {
+  text-align: center;
+  margin-top: 4rem;
+}
+button {
+  margin: 1rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #125a9c;
+}
+.btn-voltar {
+  margin-bottom: 1rem;
+  background-color: #555;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-voltar:hover {
+  background-color: #333;
+}
+
