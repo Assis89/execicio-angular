@@ -1,59 +1,62 @@
-# FrontendAngular19
+# 🚀 Desafio Angular 19 - Aplicação Standalone com Componentes e Rotas
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+Este é um projeto Angular 19 desenvolvido como parte de um desafio técnico. A aplicação foi criada usando o novo modelo **standalone**, com boas práticas de componentização, serviços e integração com API REST.
 
-## Development server
+## 🧩 Funcionalidades
 
-To start a local development server, run:
+A aplicação contém 3 páginas principais:
 
-```bash
-ng serve
-```
+### 1. 🏠 Página Inicial (Home)
+- Exibe dois botões:
+  - **Calcular Área ao Quadrado**
+  - **Autenticar e Listar Dados**
+- Permite navegação entre os componentes através de rotas.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 2. 📐 Calcular Área ao Quadrado
+- Inputs para **largura** e **altura**
+- Calcula a fórmula: `(largura × altura)²`
+- Exibe o resultado na própria tela
+- Botão para **voltar à página inicial**
 
-## Code scaffolding
+### 3. 🔐 Autenticar e Listar Dados
+- Consome a API pública: [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts)
+- Exibe os campos `title` e `body` em uma tabela estilizada
+- Botão para **voltar à página inicial**
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🛠️ Tecnologias Utilizadas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Angular 19 (Standalone)
+- TypeScript
+- HTML e CSS
+- API REST pública (jsonplaceholder)
+- Angular Router
+- Forms Module para `[(ngModel)]`
+- HTTP Client Module
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## ▶️ Como Executar o Projeto
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+1. Clone o repositório:
 
 ```bash
-ng e2e
-```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+src/
+├── app/
+│   ├── home/
+│   ├── calcular-quadrado/
+│   ├── auth-api/
+│   ├── app.routes.ts
+│   └── app.component.ts
+├── main.ts
+└── index.html
 
-## Additional Resources
+📄 Licença
+Este projeto foi desenvolvido para fins de estudo. Fique à vontade para usar como referência.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+✍️ Autor
+Feito com 💻 por Thiago de Assis.
